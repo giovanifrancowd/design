@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700');
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	text-align-last: left;
+	text-align: justify;
+	line-height: 18px;
+	color: #fff;
+}
+
+#ajax_form {
+	height: 360px;
+	color: #fff;
+	position:relative;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+#nome, #telefone, #celular, #email {
+	display: inline-block;
+	width: 96%;
+	padding: 8px 0 8px 10px;
+	border-radius: 20px;
+	border: 2px #fff solid;
+	letter-spacing: -.5px;
+ 	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: rgba(255,255,255,1.00);
+	background: #ff0000;
+	margin: 0 0 8px 0;
+	height: 12px;
+}
+
+ #assunto {
+ display: inline-block;
+ width: 96%;
+ padding: 10px 0 10px 10px;
+ border-radius: 0px;
+ letter-spacing: 0px;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 18px;
+ color: rgba(255,255,255,1.00);
+ background: #002BAD;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-bottom: 8px;
+ border: none;
+ height: 18px;
+ }
+
+ #mensagem{
+ display: inline-block;
+ width: 96%;
+ padding: 10px 0 10px 10px;
+ border-radius: 20px;
+ border: 2px #fff solid;
+ resize:none;
+ height: 100px;
+ margin-top: 0px;
+ margin-left: 0px;
+ margin-right: 0px;
+ margin-bottom: 6px;
+ background: #ff0000;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 16px;
+ color: rgba(255,255,255,1.00);
+ letter-spacing: 0px;
+ }
+ 
+#enviar {
+	display: inline-block;
+	width: 10%;
+	padding: 10px;
+	margin-right: 2.5%;
+	background: #ff0000;
+	font-size: 12px;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+	text-align-last: center;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 2px #fff solid;
+	letter-spacing: -.25px;
+	font-weight: 700;
+	float: right;
+	clear: none;
+ }
+#enviar:hover {
+	display: inline-block;
+	width: 10%;
+	padding: 10px;
+	margin-right:1.5%;
+	background: rgba(255,255,255,1.00);
+	text-align: justify;
+	text-align-last: center;
+	font-size: 12px;
+	color: #ff0000;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 2px #fff solid;
+	letter-spacing: -.25px;
+	font-weight: 700;
+	float: right;
+	clear: none;
+ }
+#arquivo {
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 8px;
+	background: rgba(51,140,184,1.00);
+	text-align: center;
+	font-size: 12px;
+	color: rgba(255,255,255,1.00);
+	cursor: pointer;
+	border: thin rgba(51,140,184,1.00) solid;
+	letter-spacing: -.25px;
+	font-weight: 300;
+	float: left;
+	clear: none;
+ }
+#voltar {
+ width: 50%;
+ padding: 10px;
+ background: rgba(31,67,155,1.00);
+ font-size: 12px;
+ color: rgba(255,255,255,1.00);
+ cursor:pointer;
+ position:relative;
+ left:0px;
+ top:0px;
+ border-radius:0px;
+ border:none;
+ }
+@media (min-width: 280px) and (max-width: 800px) {
+	#enviar {
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	margin-right: 2.5%;
+	background: #ff0000;
+	font-size: 12px;
+	color: rgba(255,255,255,1.00);
+	text-align: justify;
+	text-align-last: center;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 2px #fff solid;
+	letter-spacing: -.25px;
+	font-weight: 700;
+	float: right;
+	clear: none;
+ }
+#enviar:hover {
+	display: inline-block;
+	width: 30%;
+	padding: 10px;
+	margin-right: 2.5%;
+	background: rgba(255,255,255,1.00);
+	text-align: justify;
+	text-align-last: center;
+	font-size: 12px;
+	color: #ff0000;
+	cursor: pointer;
+	border-radius: 20px;
+	border: 2px #fff solid;
+	letter-spacing: -.25px;
+	font-weight: 700;
+	float: right;
+	clear: none;
+ }
+}

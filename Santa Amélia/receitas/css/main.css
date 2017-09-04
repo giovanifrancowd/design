@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+a:hover {
+	text-decoration: none !important;
+}
+
+@media (min-width: 280px) and (max-width: 768px) {
+	.receitas {
+		display: block;
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		float: left;
+		position: relative;
+		margin-top: 0;
+		z-index: 1;
+	}
+	.receitas-content {
+		display: block;
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.receitas intro {
+		display: inline-block;
+		width: 100%;
+		height: 48px;
+		padding: 75px 5% 0;
+		text-align: center;
+		float: left;
+	}
+	
+	.fotos {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		padding: 100px 5% 5px;
+		float: left;
+	}
+	.receita-textos {
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		padding: 50px 5% 5px;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		text-align: left;
+		line-height: 24px;
+		color: #000;
+		float: left;
+	}
+	.voltar {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 5px 2.5% 50px 5%;
+		float: left;
+	}
+	.imprimir {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 5px 5% 50px 2.5%;
+		float: left;
+	}
+}
+
+@media (min-width: 769px) {
+	.receitas {
+		display: block;
+		width: 100%;
+		height: auto;
+		background-color: #fff;
+		float: left;
+		position: relative;
+		margin-top: 0;
+		z-index: 1;
+	}
+	.receitas-content {
+		display: block;
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.receitas intro {
+		display: inline-block;
+		width: 100%;
+		height: 48px;
+		padding: 75px 0 0;
+		text-align: center;
+		float: left;
+	}
+	
+	.fotos {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 100px 2.5% 5px 10%;
+		float: left;
+	}
+	.receita-textos {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 150px 5% 5px 2.5%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 18px;
+		text-align: left;
+		line-height: 24px;
+		color: #000;
+		float: left;
+	}
+	.voltar {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 5px 2.5% 50px 5%;
+		float: left;
+	}
+	.imprimir {
+		display: inline-block;
+		width: 50%;
+		height: auto;
+		padding: 10px 5% 50px 2.5%;
+		float: left;
+	}
+}
